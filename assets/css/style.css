@@ -28,6 +28,10 @@ body {
 /*
     Alineamiento y espaciado
 ------------------------------------------*/
+.roomy-200 {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
 
 .roomy-100 {
     padding-top: 100px;
@@ -1121,6 +1125,7 @@ Estilos para la seccion de informacion (despliegue de informacion)
 }
 .main_video{
     display: block;
+    /*height: 400px*/
     /*z-index: 2;*/
     /*position: relative;*/
 }
