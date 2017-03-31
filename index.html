@@ -915,12 +915,15 @@
             <script>
                             function showmap() {
                                 var mapOptions = {
-                                    zoom: 15,
-                                    scrollwheel: false,
-                                    center: new google.maps.LatLng(25.5891476, -103.485862),
-                                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                                    zoom: 17,
+                                    scrollwheel: true,
+                                    center: new google.maps.LatLng(25.536165, -103.524209)
                                 };
                                 var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+                                var marker = new google.maps.Marker({
+                                    position: new google.maps.LatLng(25.536165, -103.524209),
+                                    map: map
+                                 });
                                 $('.mapheight').css('height', '350');
                                 $('.maps_text h3').hide();
                             }
