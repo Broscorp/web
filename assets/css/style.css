@@ -1619,3 +1619,61 @@ Estilos para la seccion de informacion (despliegue de informacion)
     text-decoration: none;
 
 }
+
+
+
+/* Estilo botones Inicio de sesion redes sociales */
+
+.btn-link-1 {
+	display: inline-block;
+	height: 45px;
+    width: 180px;
+	margin: 5px;
+	padding: 15px 20px 0 20px;
+	background: #19b9e7;
+	font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    border: none;
+    
+}
+.btn-link-1.btn-link-1-facebook { background: #4862a3; }
+.btn-link-1.btn-link-1-twitter { background: #55acee; }
+.btn-link-1.btn-link-1-google-plus { background: #dd4b39; }
+
+.btn-link-1 i {
+	padding-right: 5px;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+/***** Estilo forma-inicio sesion *****/
+.form-box {
+	margin-top: 35px;
+    overflow: hidden;
+	padding: 35px 15px 45px 15px;
+	background: #434343;
+	-moz-border-radius: 5px 5px 5px 5px; 
+    -webkit-border-radius: 5px 5px 5px 5px; 
+    border-radius: 5px 5px 5px 5px;
+	text-align: left;
+}
+
+.form-box form button.btn {
+	width: 100%;
+    margin-top: 10px;
+}
+
+.social-login {
+	margin-top: 35px;
+    margin-left: 20px;
+}
+
+.social-login-buttons {
+	margin-top: 25px;
+}
+
+
+/*  */

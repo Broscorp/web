@@ -1468,7 +1468,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 @media (min-width: 480px) and (max-width: 640px) {
     nav.bootsnav.navbar-full ul.nav{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
