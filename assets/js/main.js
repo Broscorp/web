@@ -1,8 +1,5 @@
 "use strict";
 
-//Rage Template
-//Designerd by: http://bootstrapthemes.co
-
 jQuery(document).ready(function ($) {
 
 //for Preloader

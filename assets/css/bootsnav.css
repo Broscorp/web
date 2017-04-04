@@ -365,8 +365,8 @@ body.on-side{
     position: fixed;
     overflow-y: auto;
     top: 0;
-    right: -280px;
-    width: 280px;
+    right: -350px;
+    width: 350px;
     padding: 25px 30px;
     height: 100%;
     display: block;
