@@ -657,7 +657,7 @@ p-0{
 
 /*Para cambios de marcador de posición(placeholder)
 ------------------------------------------*/
-input[type="email"].form-control::-webkit-input-placeholder {
+input[type="txt2"].form-control::-webkit-input-placeholder {
     color: #fff;
     background-color: transparent;
 }
@@ -1000,11 +1000,11 @@ Fin del CSS predefinido*/
     background-color: #EAA33F !important;
 }
 
-.navbar-brand {
+/*.navbar-brand {
  transform: translateX(-30%);
-  left: 20%;*/
+  left: 20%;
   position: absolute;
-}
+}*/
 
 /*Estilos para la seccion Inicio
 ------------------------------------------*/
@@ -1046,8 +1046,8 @@ Fin del CSS predefinido*/
     float: left;
     margin-right: 20px;
 }
-.ab_head .ab_head_icon .icofont,
-.ab_head .ab_head_icon .icon{
+.ab_head .ab_head_icon .fa,
+.ab_head .ab_head_icon .fa{
     width:60px;
     height: 60px;
     line-height: 60px;
@@ -1176,7 +1176,7 @@ Estilos para la seccion de informacion (despliegue de informacion)
     width:100%;
     overflow: hidden;
 }
-.servicios_item i.icofont,
+/*.servicios_item i.glyphicon,*/
 .servicios_item i.fa,
 .servicios_item span.icon{
     font-size:3rem;
@@ -1315,7 +1315,7 @@ Estilos para la seccion de informacion (despliegue de informacion)
     z-index: 1;
 }
 .main_testimonial .testimonial_slid{
-    width:90%;
+    width:75%;
     display: block;
     margin: 0 auto;
 }
@@ -1323,7 +1323,7 @@ Estilos para la seccion de informacion (despliegue de informacion)
     width:90%;
     margin: 0 auto;
 }
-.main_testimonial .testimonial_slid .slick-arrow{
+/*.main_testimonial .testimonial_slid .slick-arrow{
     border:1px solid #fff;
     width:45px;
     height: 45px;
@@ -1343,7 +1343,7 @@ Estilos para la seccion de informacion (despliegue de informacion)
     float: right;
     top:-146px;
     right:-9%;
-}
+}*/
 .main_testimonial .testimonial_item .test_authour i{
     color:#ffbf00;
 }

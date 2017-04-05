@@ -10,12 +10,6 @@ Author URI: http://www.xpeedstudio.com
     body {
         font-size: 1rem;
     }
-
-
-
-
-
-
 }
 
 
@@ -72,14 +66,26 @@ Author URI: http://www.xpeedstudio.com
     .xs-m-bottom-20{
         margin-bottom:20px;
     }
-    .main_testimonial .testimonial_slid .slick-arrow.nextprevright {
+    /*.main_testimonial .testimonial_slid .slick-arrow.nextprevright {
         top: -269px;
         right: -50px;
-    }
+    }*/
 
-    .testimonial_slid .slick-arrow {
+    /*.testimonial_slid .slick-arrow {
+        display: none;
+    }*/
+    
+    .main_inicio h1{
+        font-size: 4rem;
+    }
+    .attr-nav > ul > li.search{
         display: none;
     }
+    /*.main_testimonial .testimonial_slid .slick-arrow{
+        display: none;
+    }*/
+    
+    
 }
 
 

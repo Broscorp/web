@@ -86,8 +86,8 @@ jQuery(document).ready(function ($) {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
-        prevArrow: "<i class='fa fa-angle-left nextprevleft'></i>",
-        nextArrow: "<i class='fa fa-angle-right nextprevright'></i>",
+        //prevArrow: "<i class='fa fa-angle-left nextprevleft'></i>",
+        //nextArrow: "<i class='fa fa-angle-right nextprevright'></i>",
         autoplay: true,
         autoplaySpeed: 2000
     });
