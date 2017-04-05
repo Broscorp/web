@@ -1,0 +1,409 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Administrador</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+        
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/admin-style.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        
+      
+    </head>
+
+    <body>
+        
+        <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="admin.html">Panel de administración</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Ver todos los mensajes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alerta 1 <span class="label label-default">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alerta 2 <span class="label label-primary">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alerta 3 <span class="label label-success">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Ver todas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario 1 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensajes</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Opciones</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-fw fa-power-off"></i> Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="admin.html"><i class="fa fa-fw fa-dashboard"></i> Menú principal</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Ventas</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-table"></i> Productos</a>
+                    </li>
+                    <li>
+                        <a href="admin-clientes.html"><i class="fa fa-fw fa-edit"></i> Clientes</a>
+                    </li>
+                     <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-truck"></i> Envios <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#">En proceso</a>
+                            </li>
+                            <li>
+                                <a href="#">Cancelados</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Soporte</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-wrench"></i> Configuración</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Menú principal <small>Resumen</small>
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i> Menú principal
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-comments fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">15</div>
+                                        <div>Mensajes de contacto nuevos</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver mensajes</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-user fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">10</div>
+                                        <div>Usuarios nuevos</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver detalles</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-shopping-cart fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">85</div>
+                                        <div>Ventas nuevas</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver detalles</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-money fa-fw"></i>  Panel de ventas (vista rápida)</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Fecha de orden</th>
+                                                <th>Hora</th>
+                                                <th>Cantidad (MXN)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>111</td>
+                                                <td>5/4/2017</td>
+                                                <td>5:39 PM</td>
+                                                <td>$221.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>112</td>
+                                                <td>5/4/2017</td>
+                                                <td>2:20 PM</td>
+                                                <td>$190.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>113</td>
+                                                <td>5/4/2017</td>
+                                                <td>1:03 PM</td>
+                                                <td>$255.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>114</td>
+                                                <td>5/4/2017</td>
+                                                <td>1:00 PM</td>
+                                                <td>$512.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>115</td>
+                                               <td>5/4/2017</td>
+                                                <td>8:49 PM</td>
+                                                <td>$999.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>116</td>
+                                               <td>5/4/2017</td>
+                                                <td>7:23 PM</td>
+                                                <td>$399.10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>117</td>
+                                                <td>5/4/2017</td>
+                                                <td>4:15 PM</td>
+                                                <td>$395.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>118</td>
+                                                <td>5/4/2017</td>
+                                                <td>3:13 PM</td>
+                                                <td>$555.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>118</td>
+                                                <td>5/4/2017</td>
+                                                <td>3:13 PM</td>
+                                                <td>$555.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>118</td>
+                                                <td>5/4/2017</td>
+                                                <td>3:13 PM</td>
+                                                <td>$555.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>118</td>
+                                                <td>5/4/2017</td>
+                                                <td>3:13 PM</td>
+                                                <td>$555.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>118</td>
+                                                <td>5/4/2017</td>
+                                                <td>3:13 PM</td>
+                                                <td>$555.50</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todas las transacciones <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Centro de mensajes (vista rápida)</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace unos segundos</span>
+                                        <i class="fa fa-fw fa-calendar"></i> Actualizar inventario
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 5 minutos</span>
+                                        <i class="fa fa-fw fa-comment"></i> Un usuario comentó un producto
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 7 minutos</span>
+                                        <i class="fa fa-fw fa-comment"></i> Un usuario comentó un producto
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 50 minutos</span>
+                                        <i class="fa fa-fw fa-money"></i> 12 ordenes han sido pagadas
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 2 horas</span>
+                                        <i class="fa fa-fw fa-user"></i> Se registraron nuevos usuarios
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 5 horas</span>
+                                        <i class="fa fa-fw fa-truck"></i> 15 pedidos han sido enviados
+                                    </a>
+                                    
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">hace 2 días </span>
+                                        <i class="fa fa-fw fa-check"></i> Actualización de inventario
+                                    </a>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todos los mensajes <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+         <!-- JS -->
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+    </body>
+</html>

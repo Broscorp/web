@@ -398,6 +398,21 @@ ul{
     color:#E7931A;
 }
 
+.btn-shoppingcart1{
+    /*font-size:15px;*/
+    margin-top: 10px;
+    color: #fff;
+    background-color: #E7931A;
+    border:1px solid;
+    border-color: #E7931A;
+    
+}
+.btn-shoppingcart1:hover{
+    background-color: #eee;
+    border-color: #eee;
+    color:#E7931A;
+}
+
 .btn-cart-products{
     text-transform:lowercase;
     font-size:20px;
@@ -1618,6 +1633,10 @@ Estilos para la seccion de informacion (despliegue de informacion)
     margin-top: 10px;
 }
 
+.form-box form a{
+	width: 100%;
+    margin-top: 10px;
+}
 .side .text-info-login{
     padding: 0px 15px 45px 15px;
     color: aliceblue
@@ -1702,10 +1721,15 @@ Estilos para la seccion de informacion (despliegue de informacion)
     
 }
 
-.form-box-registro form button.btn {
+/*.form-box-registro form button.btn {
 	width: 100%;
     margin-top: 25px;
-    /*margin-left: 25px;*/
+    margin-left: 25px;
+}*/
+
+.form-box-registro form a{
+	width: 100%;
+    margin-top: 25px;
 }
 
 .social-login {
@@ -1718,3 +1742,42 @@ Estilos para la seccion de informacion (despliegue de informacion)
 }
 
 
+/*estilo carrito*/
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:20%;
+		/*margin:1.5em 0;*/
+        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-left: -20px;
+       
+	}
+	
+	.actions .btn-info{
+		/*float:left;*/
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .25rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #E7931A; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}

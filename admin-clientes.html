@@ -1,0 +1,366 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Administrador</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+        
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/admin-style.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        
+      
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="admin.html">Panel de administración</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Usuario 1</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Ayer a las 4:32 PM</p>
+                                        <p>Tenemos que actualizar los productos de...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Ver todos los mensajes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alerta 1 <span class="label label-default">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alerta 2 <span class="label label-primary">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alerta 3 <span class="label label-success">Prioridad de alerta</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Ver todas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario 1 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensajes</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Opciones</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-fw fa-power-off"></i> Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="admin.html"><i class="fa fa-fw fa-dashboard"></i> Menú principal</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Ventas</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-table"></i> Productos</a>
+                    </li>
+                    <li>
+                        <a href="admin-clientes.html"><i class="fa fa-fw fa-edit"></i> Clientes</a>
+                    </li>
+                     <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-truck"></i> Envios <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#">En proceso</a>
+                            </li>
+                            <li>
+                                <a href="#">Cancelados</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Soporte</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-wrench"></i> Configuración</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Clientes 
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i> Menú principal / Clientes
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="container">
+                        <form id="frmComensales" action="post"> 
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                            <h2 class="panel-title">Listado de clientes</h2>
+
+                                </div>
+                                    <div class="panel-body">
+                                        <table id="tablaComensales" class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>ID Cliente</th>
+                                                <th>Nombre</th>
+                                                <th>Apellido paterno</th>
+                                                <th>Apellido materno</th>
+                                                <th>Producto favorito</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                    <td>test</td>
+                                                </tr>
+                                            </tbody>
+                                        </table> 
+                                        <button type="button" id="new" data-toggle="modal" data-target ="#nuevo"
+                                                class="btn btn-primary">Nuevo cliente</button>
+
+                                        <button type="button" id="modificar" class="btn btn-warning" data-toggle="modal" data-target="#nuevo">Modificar</button>
+
+                                        <button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                </div>
+                            </div>
+                            <!---------------------------------------Ventana Modal -------------------->
+                            <div class="modal fade" id="nuevo">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="panel panel-success">
+                                        <div class="panel-heading">
+                                            <h2 class="panel-title"> Registro de clientes</h2>
+                                        </div>
+
+                                         <div class="panel-body">
+                                             <input type="hidden" name="idComensal" id="idComensal">
+                                            <div class="form-group">
+                                                <label>Nombre:</label>
+                                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Escribe el Nombre del comensal">
+                                             </div>
+                                             <div class="form-group">
+                                                <label>Apellido Paterno:</label>
+                                                <input type="text" class="form-control" name="apaterno" id="apaterno" placeholder="Escribe el apellido paterno del comensal">
+                                             </div>
+                                             <div class="form-group">
+                                                <label>Apellido Materno:</label>
+                                                <input type="text" class="form-control" name="amaterno" id="amaterno" placeholder="Escribe el apellido  materno del comensal">
+                                             </div>
+                                             <div class="form-group">
+                                                <label>Producto Favorito:</label>
+                                                <input type="text" class="form-control" name="pfavorito" id="pfavorito" placeholder="Escribe la descripcion del comensal">
+                                             </div>
+                                        </div>
+
+                                        <div class="panel-footer">
+                                            <button type="button" class="btn btn-success btn-lg" id="guardarComensal">Guardar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!---------------------------------------Ventana Modal Fin------------------------------------>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+         <!-- JS -->
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+    </body>
+</html>
