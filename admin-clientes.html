@@ -41,7 +41,7 @@
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Usuario 1</strong>
@@ -56,7 +56,7 @@
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Usuario 1</strong>
@@ -71,7 +71,7 @@
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="https://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Usuario 1</strong>
@@ -186,7 +186,8 @@
 
                                 </div>
                                     <div class="panel-body">
-                                        <table id="tablaComensales" class="table table-bordered table-hover">
+                                       <div class="table-responsive">
+                                        <table id="tablaComensales" class="table table-bordered table-hover table-striped">
                                         <thead>
                                             <tr>
                                                 <th>ID Cliente</th>
@@ -303,13 +304,14 @@
                                                     <td>test</td>
                                                 </tr>
                                             </tbody>
-                                        </table> 
-                                        <button type="button" id="new" data-toggle="modal" data-target ="#nuevo"
-                                                class="btn btn-primary">Nuevo cliente</button>
+                                        </table>
+                                    </div>    
+                                    <button type="button" id="new" data-toggle="modal" data-target ="#nuevo"
+                                            class="btn btn-primary">Nuevo cliente</button>
 
-                                        <button type="button" id="modificar" class="btn btn-warning" data-toggle="modal" data-target="#nuevo">Modificar</button>
+                                    <button type="button" id="modificar" class="btn btn-warning" data-toggle="modal" data-target="#nuevo">Modificar</button>
 
-                                        <button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    <button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
                                 </div>
                             </div>
                             <!---------------------------------------Ventana Modal -------------------->
